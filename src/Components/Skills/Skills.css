@@ -1,0 +1,14 @@
+img {
+  height: 7hv;
+  width: 7vw;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  margin-bottom: 5rem;
+}
