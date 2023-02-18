@@ -7,8 +7,23 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: max-content;
+  width: 30vw;
+  margin: 5rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 button {
   margin-bottom: 5rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
