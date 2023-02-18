@@ -8,6 +8,7 @@ const About = () => {
   return (
     <div className='about-container'>
       <h2>This is the about section.</h2>
+      <p>la la la</p>
     </div>
   )
 }
