@@ -21,6 +21,12 @@ const Project = ({ id, name, image, repo, deployed, summary, technologies }) => 
         <Button style={{height: '2rem', width: 'max-content'}}>Deployed</Button>
       </NavLink>
     </div>
+    <Card.Text>
+      Technologies: 
+        {technologies.map(item => {
+          return( <li className='list'>{item}</li>)
+        })}
+    </Card.Text>
   </Card>
  )
 }

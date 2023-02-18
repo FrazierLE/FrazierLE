@@ -6,6 +6,7 @@ import ProjectsContainer from '../ProjectsContainer/ProjectsContainer';
 import Skills from '../Skills/Skills'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import Resume from '../Resume/Resume';
 
 function App() {
   const location = useLocation()
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={< About />}/>
         <Route path='/projects' element={ <ProjectsContainer />} />
         <Route path='/skills' element={< Skills />}/>
+        <Route path='/resume' element={<Resume />} />
     </Routes>
       <Footer />
       </div>

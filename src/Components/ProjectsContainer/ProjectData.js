@@ -37,7 +37,7 @@ export const data = [
     image: pomodori,
     repo: 'https://github.com/FrazierLE/pomodori',
     deployed: 'https://pomodori-three.vercel.app/',
-    summary: '',
+    summary: 'Pomodori Putridi is a movie application that simulates to rotten tomatoes and imdb.',
     technologies: ['React, React-Router, Cypress, RESTful API']
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     image: wrns,
     repo: 'https://github.com/FrazierLE/strangers-api',
     deployed: 'https://strangers-api-lhr3.vercel.app/api/v1/strangers/',
-    summary: '',
+    summary: 'API for We\'re Not Really Strangers',
     technologies: ['Express, Node.js']
   }
 ]
