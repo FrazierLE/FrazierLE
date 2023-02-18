@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 const Project = ({ id, name, image, repo, deployed, summary, technologies }) => {
  return(
   <Card className='card' style={{width: '20rem', margin: '3rem'}}>
-    <Card.Img className="card-img-top" src={image}></Card.Img>
+    <Card.Img className="card-img-top img-card" src={image}></Card.Img>
     <Card.Title className="card-title">
       <h2>{name}</h2>
     </Card.Title>

@@ -3,3 +3,8 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.card-img {
+  height: 7rem;
+  width: 20rem;
+}

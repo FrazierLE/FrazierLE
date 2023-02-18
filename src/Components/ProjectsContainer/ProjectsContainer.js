@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Project from '../Project/Project'
 import { data } from './ProjectData.js'
 
+
 const ProjectsContainer = () => {
   const projectData = data.map(project => {
     return (
