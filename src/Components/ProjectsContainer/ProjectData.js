@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1, 
     name: "We're Not Really Strangers",
-    image: "../assets/wrns.png",
+    image: "wrns.png",
     repo: 'https://github.com/FrazierLE/strangers',
     deployed: 'https://strangers-five.vercel.app/',
     summary: 'We\'re Not Really Strangers is a web application inspired by the card game "We\'re Not Really Strangers". We\'re Not Really Strangers is designed to deepen relational connections by encouraging emotional vulnerability through meaningful conversations.',
@@ -11,7 +11,7 @@ export const data = [
   {
     id: 2, 
     name: "BookWorm",
-    image: "../assets/BookWorm.png",
+    image: "BookWorm.png",
     repo: 'https://github.com/FrazierLE/bookworm-fe',
     deployed: 'https://bookworm-fe.vercel.app/',
     summary: 'Say goodbye to cluttered bookshelves and hello to a new way of reading. Bookworm connects you with a community of book lovers who are eager to share their favorite stories with one another. Simply swap books with members of our community and enjoy new stories for free!',
@@ -20,7 +20,7 @@ export const data = [
   {
     id: 3, 
     name: "Around The World",
-    image: "../assets/around-the-world.png",
+    image: "around-the-world.png",
     repo: 'https://github.com/FrazierLE/trivia',
     deployed: 'https://around-the-world-trivia.netlify.app/',
     summary: 'Around the World is a world trivia game application testing the user\'s knowledge of capitals and flags.',
@@ -29,7 +29,7 @@ export const data = [
   {
     id: 4, 
     name: "Pomodori Putridi",
-    image: "../assets/pomodori.png",
+    image: "pomodori.png",
     repo: 'https://github.com/FrazierLE/pomodori',
     deployed: 'https://pomodori-three.vercel.app/',
     summary: '',
@@ -38,7 +38,7 @@ export const data = [
   {
     id: 5, 
     name: "We're Not Really Strangers API",
-    image: "../assets/wrns.png",
+    image: "wrns.png",
     repo: 'https://github.com/FrazierLE/strangers-api',
     deployed: 'https://strangers-api-lhr3.vercel.app/api/v1/strangers/',
     summary: '',
