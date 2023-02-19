@@ -6,11 +6,11 @@ import './Header.css'
 const Header = () => {
   return (
     <nav className='nav-btn'>
-      <NavLink to='/projects'>
-        <Button className='btn'>Projects</Button>
-      </NavLink>
       <NavLink to='/about'>
         <Button className='btn'>About</Button>
+      </NavLink>
+      <NavLink to='/projects'>
+        <Button className='btn'>Projects</Button>
       </NavLink>
       <NavLink to='/skills'>
         <Button className='btn'>Skills</Button>

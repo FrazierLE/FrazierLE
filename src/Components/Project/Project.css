@@ -5,7 +5,7 @@
 }
 
 .card-img {
-  height: 7rem;
+  height: 12rem;
   width: 20rem;
 }
 
@@ -15,4 +15,6 @@
 
 .card {
   box-shadow: 4px 4px 0 darkgrey;
+  width: 22rem;
+  margin: 3rem;
 }

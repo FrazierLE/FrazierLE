@@ -16,6 +16,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 button {
@@ -26,4 +27,15 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 20vh;
+}
+
+.cards.skills {
+  height: 12vh;
+}
+
+.card-header {
+  margin: 1rem;
 }

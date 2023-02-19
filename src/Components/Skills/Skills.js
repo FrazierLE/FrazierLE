@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className='skills-container'>
       <Card className='development skills'>
-        <Card.Header>Development</Card.Header>
+        <Card.Header style={{borderRadius: '1rem'}}>Development</Card.Header>
         <div className='flex'>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg" alt='graphql icon'/>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='javascript logo'/> 
@@ -20,7 +20,7 @@ const Skills = () => {
       </Card>
 
       <Card className='workflow skills'>
-        <Card.Header>Workflow</Card.Header>
+        <Card.Header style={{borderRadius: '1rem'}}>Workflow</Card.Header>
         <div className='flex'>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt='github logo'/>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt='git logo'/> 
@@ -30,7 +30,7 @@ const Skills = () => {
       </Card>
 
       <Card className='testing skills'>
-        <Card.Header>Testing</Card.Header>
+        <Card.Header style={{borderRadius: '1rem'}}>Testing</Card.Header>
         <div className='flex'>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" alt='mocha logo'/>
         </div>
@@ -43,7 +43,7 @@ const Skills = () => {
       </div> */}
       
       <Card className='web-design skills'>
-        <Card.Header>Web Design</Card.Header>
+        <Card.Header style={{borderRadius: '1rem'}}>Web Design</Card.Header>
         <div className='flex'>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt='bootstrap logo'/>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt='css logo'/>

@@ -5,3 +5,15 @@
 .btn {
   margin-bottom: 2rem;
 }
+
+.profile-img { 
+  height: 40vh;
+  width: 40vw;
+  border-radius: 1rem;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
