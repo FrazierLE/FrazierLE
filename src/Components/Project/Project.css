@@ -14,7 +14,7 @@
 }
 
 .card {
-  box-shadow: 4px 4px 0 darkgrey;
+  box-shadow: 4px 4px 0 rgb(0, 109, 119);
   width: 22rem;
   margin: 3rem;
 }

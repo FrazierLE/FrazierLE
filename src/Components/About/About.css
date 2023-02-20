@@ -1,5 +1,9 @@
 .about-container {
   margin: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .btn {
@@ -16,4 +20,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 50rem;
+}
+
+.about-me {
+  width: 50vw;
+  margin-right: 1rem;
 }
