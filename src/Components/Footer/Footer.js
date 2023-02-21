@@ -14,7 +14,7 @@ const Footer = () => {
         <img className='img-footer' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt='github logo'/>
       </NavLink>
       <NavLink to='/resume'>
-        <img src='https://png.pngtree.com/png-vector/20190411/ourlarge/pngtree-vector-resume-icon-png-image_927259.jpg'/>
+        <img className='img-footer' src='https://png.pngtree.com/png-vector/20190411/ourlarge/pngtree-vector-resume-icon-png-image_927259.jpg'/>
       </NavLink>
     </footer>
   )
