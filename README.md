@@ -11,3 +11,4 @@
 ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-green?style=for-the-badge&logo=javascript)
+![HTML](https://img.shields.io/badge/-HTML-yellowgreen?style=for-the-badge&logo=html)
