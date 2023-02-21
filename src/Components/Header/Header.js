@@ -15,6 +15,9 @@ const Header = () => {
       <NavLink to='/skills'>
         <Button className='btn'>Skills</Button>
       </NavLink>
+      <NavLink to='/'>
+        <Button className='btn'>Home</Button>
+      </NavLink>
     </nav>
   )
 }
