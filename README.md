@@ -1,5 +1,5 @@
 #### Instructions
-1. Git clone repo
+1. Git clone [repo](https://github.com/FrazierLE/portfolio)
 1. cd into directory
 1. npm i
 1. npm start
