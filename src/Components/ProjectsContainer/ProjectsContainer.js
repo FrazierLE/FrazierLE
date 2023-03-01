@@ -16,6 +16,7 @@ const ProjectsContainer = () => {
       deployed={project.deployed}
       summary={project.summary}
       technologies={project.technologies}
+      accomplishment={project.accomplishment}
     />
     )
   })
