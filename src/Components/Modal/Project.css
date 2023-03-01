@@ -17,4 +17,6 @@
   box-shadow: 4px 4px 0 rgb(0, 109, 119);
   width: 22rem;
   margin: 1rem;
+  display: flex;
+  align-items: center;
 }

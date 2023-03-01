@@ -1,13 +1,13 @@
 import './ProjectsContainer.css'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Project from '../Project/Project'
 import { data } from './ProjectData.js'
+import ModalCard from '../Modal/ModalCard'
 
 const ProjectsContainer = () => {
-  const projectData = data.map(project => {
+  const modalData = data.map(project => {
     return (
-    <Project 
+    <ModalCard 
       key={project.id}
       id={project.id}
       name={project.name}
@@ -20,11 +20,12 @@ const ProjectsContainer = () => {
     />
     )
   })
+
   return (
     <div className='projects-container'>
       <h2>Puruse the projects.</h2>
       <div className='project-cards'>
-        {projectData}
+        {modalData}
       </div>
     </div>
   )
