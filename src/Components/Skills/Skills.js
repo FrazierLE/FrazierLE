@@ -50,7 +50,8 @@ const Skills = () => {
           <img className='project-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt='css logo' title='CSS3'/>
           <img className='project-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt='html logo' title='HTML5'/>   
           <img className='project-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" alt='trello logo' title='Trello'/>
-          <img className='project-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt='figma logo' title='Figma'/> 
+          <img className='project-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt='figma logo' title='Figma'/>
+          <img className='project-img' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt='materials ui logo' title='MUI'/>
         </div>
           {/* <h3>Not shown -- Responsive Design</h3> */}
       </Card>    

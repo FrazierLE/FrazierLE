@@ -2,6 +2,7 @@ import wrns from '../../assets/wrns.png'
 import pomodori from '../../assets/pomodori.png'
 import trivia from '../../assets/around-the-world.png'
 import bookworm from '../../assets/BookWorm.png'
+import dailyDose from '../../assets/daily-dose.png'
 
 export const data = [
   {
@@ -48,5 +49,14 @@ export const data = [
     deployed: 'https://strangers-api-lhr3.vercel.app/api/v1/strangers/',
     summary: 'API for We\'re Not Really Strangers',
     technologies: ['Express, Node.js']
+  },
+  {
+    id: 6,
+    name: 'Daily Dose',
+    image: dailyDose,
+    repo: 'https://github.com/FrazierLE/materials',
+    deployed: 'https://materials-hazel.vercel.app/',
+    summary: 'Daily Dose is an application for users to get the New York Times\' top stories.',
+    technologies: ['MaterialsUI, React, RESTful API']
   }
 ]
