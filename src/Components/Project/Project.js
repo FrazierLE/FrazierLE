@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap'
 import './Project.css'
 import { NavLink } from 'react-router-dom'
 
-const Project = ({ id, name, image, repo, deployed, summary, technologies }) => {
+const Project = ({ id, name, image, repo, deployed, summary, technologies, accomplishment }) => {
  return(
   <Card className='card'>
     <Card.Img className="card-img-top img-card" src={image}></Card.Img>
@@ -26,6 +26,9 @@ const Project = ({ id, name, image, repo, deployed, summary, technologies }) => 
         {technologies.map(item => {
           return( <li className='list'>{item}</li>)
         })}
+    </Card.Text>
+    <Card.Text>
+      Accomplishment: {accomplishment}
     </Card.Text>
   </Card>
  )
