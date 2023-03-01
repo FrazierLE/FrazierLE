@@ -10,7 +10,7 @@ const ModalCard = ({ id, name, image, repo, deployed, summary, technologies, acc
   const handleShow = () => setShow(true);
   return(<div>
     <Card>
-      <img src={image}/>
+      <img src={image} style={{width: 'max-content', height: '20vh'}}/>
       <Card.Text>{name}</Card.Text>
       <Button variant="primary" onClick={handleShow}>See Project Details</Button>
     </Card>
