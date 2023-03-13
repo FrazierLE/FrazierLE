@@ -3,24 +3,20 @@ import Home from '../Home/Home';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import About from '../About/About';
 import ProjectsContainer from '../ProjectsContainer/ProjectsContainer';
-import Skills from '../Skills/Skills'
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
-import Resume from '../Resume/Resume';
+import SkillSection from '../SkillSection/SkillSection';
+import NavBarMenu from '../Header/NavBarMenu';
 
 function App() {
   const location = useLocation()
   return (
       <div className="App">
-        {location.pathname !== '/' && < Header />}
+        <NavBarMenu />
     <Routes>
         <Route path='/' element={< Home />}/>
         <Route path='/about' element={< About />}/>
         <Route path='/projects' element={ <ProjectsContainer />} />
-        <Route path='/skills' element={< Skills />}/>
-        <Route path='/resume' element={<Resume />} />
+        <Route path='/skills' element={< SkillSection />}/>
     </Routes>
-      <Footer />
       </div>
   );
 }
