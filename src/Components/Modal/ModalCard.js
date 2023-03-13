@@ -11,7 +11,7 @@ const ModalCard = ({ id, name, image, repo, deployed, summary, technologies, acc
   return(<div>
     <Card>
       <img src={image} style={{width: 'max-content', height: '20vh'}}/>
-      <Card.Text>{name}</Card.Text>
+      <Card.Text style={{fontSize: '1.25rem'}}>{name}</Card.Text>
       <Button variant="primary" onClick={handleShow}>See Project Details</Button>
     </Card>
 
@@ -30,10 +30,10 @@ const ModalCard = ({ id, name, image, repo, deployed, summary, technologies, acc
     <p>Accomplishment: {accomplishment}</p>
   </Modal.Body>
   <Modal.Footer>
-    <NavLink to={repo}>
+    <NavLink to={repo} target='_blank'>
       <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Repo</Button>
     </NavLink>
-    <NavLink to={deployed}>
+    <NavLink to={deployed} target='_blank'>
       <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Deployed</Button>
     </NavLink>
   </Modal.Footer>
