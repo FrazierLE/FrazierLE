@@ -1,0 +1,26 @@
+.project-img {
+  height: 10hv;
+  width: 10vw;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  margin-bottom: 5rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+}

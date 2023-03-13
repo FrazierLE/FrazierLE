@@ -7,22 +7,22 @@ import Resume from '../../assets/Resume.pdf'
 
 const NavBarMenu = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="info">
-      <Container>
-        <Navbar.Brand href="#home">Lauren's Portfolio</Navbar.Brand>
+    <Navbar collapseOnSelect expand={false} bg="light">
+      <Container fluid>
+        <Navbar.Brand href="#home" style={{color: 'rgb(119, 193, 182)', fontSize: '2rem'}}>Lauren's Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="/">🏠</Nav.Link>
+          <Nav className="me-auto" style={{fontSize: '1.5rem'}}>
+            <Nav.Link href="/">🏠 Home</Nav.Link>
             <Nav.Link href="/about">About Me</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/skills">Skills</Nav.Link>
             <Nav>
             <NavDropdown title="Connect" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="https://www.linkedin.com/in/lauren-frazier-745053188/" target='_blank'>LinkedIn</NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/FrazierLE" target='_blank'>Github</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.linkedin.com/in/lauren-frazier-745053188/" target='_blank' style={{fontSize: '1.5rem'}}>LinkedIn</NavDropdown.Item >
+              <NavDropdown.Item href="https://github.com/FrazierLE" target='_blank' style={{fontSize: '1.5rem'}}>Github</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href={Resume} download='Frazier, Lauren Resume' target='_blank'>Resume</NavDropdown.Item>
+              <NavDropdown.Item href={Resume} download='Frazier, Lauren Resume' target='_blank' style={{fontSize: '1.5rem'}}>Resume</NavDropdown.Item>
             </NavDropdown>
             </Nav>
           </Nav>

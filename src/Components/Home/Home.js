@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='home-container'>
       <img className='gif' src={hireme} alt='hire me gif'/>
-      <h2>Bringing design to life, one line of code at a time.</h2>
+      <h2 style={{color: 'rgb(229, 134, 116)'}}>Bringing design to life, one line of code at a time.</h2>
     </div>
   )
 }

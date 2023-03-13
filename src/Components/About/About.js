@@ -1,9 +1,7 @@
 import './About.css'
 import React from 'react'
-import { Button } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom'
-import Skills from '../Skills/Skills'
 import profile from '../../assets/profile.jpg'
+import { Card } from 'react-bootstrap'
 
 const About = () => {
   return (
@@ -11,11 +9,18 @@ const About = () => {
       <h2 style={{marginBottom: '1rem'}}>About Me</h2>
       <div className='about-section'>
         <div className='about-me'>
-          <h3>I'm Lauren, and I'm a front end software developer.</h3>
-          <p>Before software development, I was a strength coach. I got my bachelors in exercise science, and trained clients for 7 years and counting. But in January 2022, I was watching the sunrise alone in Costa Rica, and it was a pivotal moment. I knew the next steps for me was either to start moving towards starting my own gym or making a career shift. One of my clients was a career-changer/now-software-developer so I sat him down and here I am. I enrolled in Turing School of Software & Design in the front end program. I have found that software development and personal training have more in common than I expected. Personal training and software development require solving a problem collaboratively, continuous education and growth, and building a product to improve a client's life. When I’m not coding, I’m training clients, snowboarding, enjoying live music, traveling the world, exploring different coffee shops, and seeing friends.</p>
-          <h4>Currently learning: MUI, Angular</h4>
+          <Card.Text>
+            <h3>Hello there! I'm Lauren, and I'm a front end software developer.</h3>
+            <p>Prior to my current career in software development, I worked as a strength coach for seven years, using my bachelor's degree in exercise science to train clients. However, a life-changing moment occurred in January 2022 while I was watching the sunrise alone in Costa Rica. At that point, I realized I had two options: either move forward with starting my own gym or make a career shift. After speaking with one of my clients, who had made the transition from personal training to software development, I decided to enroll in the front-end program at Turing School of Software & Design.</p>
+          </Card.Text>
         </div>
         <img src={profile} alt='profile picture' className='profile-img'/>
+        <div className='about-me'>
+          <Card.Text>
+            <p>Interestingly, I've discovered that software development and personal training share more similarities than I expected. Both require collaboration to solve problems, a commitment to continuous education and growth, and the development of products that enhance a client's life. When I'm not coding, I enjoy training clients, snowboarding, attending live music events, traveling the world, exploring new coffee shops, and spending time with friends.</p>     
+            <h4>Currently learning: MUI, Angular</h4>
+          </Card.Text>
+        </div>
       </div>
     </div>
   )
