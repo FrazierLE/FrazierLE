@@ -11,7 +11,7 @@ const About = () => {
         <div className='about-me'>
           <Card.Text>
             <h3>Hello there! I'm Lauren, and I'm a front end software developer.</h3>
-            <p>Prior to my current career in software development, I worked as a strength coach for seven years, using my bachelor's degree in exercise science to train clients. However, a life-changing moment occurred in January 2022 while I was watching the sunrise alone in Costa Rica. At that point, I realized I had two options: either move forward with starting my own gym or make a career shift. After speaking with one of my clients, who had made the transition from personal training to software development, I decided to enroll in the front-end program at Turing School of Software & Design.</p>
+            <p>Prior to my current career in software development, I worked as a strength coach for seven years, using my bachelor's degree in exercise science to train clients. However, after one morning in January 2022 in Costa Rica, I thought about my two options going forward: either start my own gym or make a career shift. After speaking with one of my clients, who had made the transition from personal training to software development, I decided to enroll in the front-end program at Turing School of Software & Design.</p>
           </Card.Text>
         </div>
         <img src={profile} alt='profile picture' className='profile-img'/>
