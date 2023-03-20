@@ -3,19 +3,21 @@ import { Modal, Button, Card } from "react-bootstrap";
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import './Project.css'
+import CardHeader from 'react-bootstrap/esm/CardHeader';
 
-const ModalCard = ({ id, name, image, repo, deployed, summary, technologies, accomplishment }) => {
+const ModalCard = ({ id, name, image, repo, inProgress, deployed, summary, technologies, accomplishment }) => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return(<div>
     <Card>
       <img src={image} style={{width: 'max-content', height: '20vh'}}/>
+      {inProgress === 'true' && <Card.Text>Still a Work In Progress</Card.Text>}
       <Card.Text style={{fontSize: '1.25rem'}}>{name}</Card.Text>
       <Button variant="primary" onClick={handleShow}>See Project Details</Button>
     </Card>
 
-<Modal show={show} onHide={handleClose}>
+<Modal show={show} onHide={handleClose} >
   <img src={image} height='300vh' width='max-content'/>
   <Modal.Header closeButton>
     <Modal.Title>{name}</Modal.Title>

@@ -13,6 +13,7 @@ const ProjectsContainer = () => {
       name={project.name}
       image={project.image}
       repo={project.repo}
+      inProgress={project.inProgress}
       deployed={project.deployed}
       summary={project.summary}
       technologies={project.technologies}
