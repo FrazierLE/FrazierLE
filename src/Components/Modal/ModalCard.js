@@ -23,6 +23,7 @@ const ModalCard = ({ id, name, image, repo, inProgress, deployed, summary, techn
     <Modal.Title>{name}</Modal.Title>
   </Modal.Header>
   <Modal.Body>
+    {inProgress === 'true' && <p style={{color: 'blue'}}>Current project</p>}
     <p>{summary}</p>
     Technologies: 
         {technologies.map(item => {
