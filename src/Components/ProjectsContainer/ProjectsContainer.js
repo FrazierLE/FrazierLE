@@ -23,7 +23,7 @@ const ProjectsContainer = () => {
 
   return (
     <div className='projects-container'>
-      <h2>Puruse the Projects.</h2>
+      <h2>Peruse the Projects.</h2>
       <div className='project-cards'>
         {modalData}
       </div>
