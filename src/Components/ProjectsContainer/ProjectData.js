@@ -80,7 +80,7 @@ export const data = [
     inProgress: 'true',
     deployed: '',
     summary: 'Task Master is a web application designed for recent software engineer bootcamp grads to stay on track for interview prep.',
-    technologies: ['TypeScript, React, Material UI, Jest'],
-    accomplishment: 'Teaching myself Jest to learn how to unit test React components.'
+    technologies: ['TypeScript, React, Material UI, GraphQL, GoogleOAuth, Jest'],
+    accomplishment: 'Teahcing myself how to utilize google oauth for login purposes.'
   }
 ]
