@@ -2,7 +2,7 @@
 <div align="center">
   <h1>Hello there, I'm Lauren!  Here's a link to my portfolio website.</h1>
   <span>Check it out!</span>
-  <a href="https://portfolio-frazierle.vercel.app" target="_blank">Portfolio</a>
+  <a href="https://portfolio-frazierle.vercel.app" target='_blank'>Portfolio</a>
 </div>
 
 <div align="center">
