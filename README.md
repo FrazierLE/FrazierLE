@@ -1,5 +1,8 @@
-## Hello there, I'm Lauren!  Here's a link to my portfolio website. Check it out! 
-[Portfolio](https://portfolio-frazierle.vercel.app/)
+
+<div align="center">
+  <h1>Hello there, I'm Lauren!  Here's a link to my portfolio website. Check it out!</h1>
+  <span>[Portfolio](https://portfolio-frazierle.vercel.app/)</span>
+</div>
 
 <div align="center">
   <h2>Currently Learning</h2>
