@@ -1,7 +1,7 @@
 
 <div align="center">
   <h1>Hello there, I'm Lauren!  Here's a link to my portfolio website. Check it out!</h1>
-  <span>[Portfolio](https://portfolio-frazierle.vercel.app/)</span>
+  <a href="[https://skillicons.dev](https://portfolio-frazierle.vercel.app)">Portfolio</a>
 </div>
 
 <div align="center">
