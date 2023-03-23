@@ -1,15 +1,14 @@
 ## Hello there, I'm Lauren!  Here's a link to my portfolio website. Check it out! 
 [Portfolio](https://portfolio-frazierle.vercel.app/)
 
-### Currently Learning:
-[![Learning](https://skillicons.dev/icons?i=angular,nextjs,jest)](https://skillicons.dev)
-
-### Skills:
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,apollo,atom,bootstrap,express,figma,github,graphql,materialui,postman,nodejs,react,redux,vercel,vscode&perline=6)](https://skillicons.dev)
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+<div align="center">
+  <h2>Currently Learning</h2>
+   <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=angular,nextjs,jest" />
   </a>
-</p>
+  <h3>Skills</h3>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,html,css,apollo,atom,bootstrap,express,figma,github,graphql,materialui,postman,nodejs,react,redux,vercel,vscode" />
+  </a>
+</div>
 
