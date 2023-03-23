@@ -11,14 +11,14 @@ const ModalCard = ({ id, name, image, repo, inProgress, deployed, summary, techn
   const handleShow = () => setShow(true);
   return(<div>
     <Card>
-      <img src={image} style={{width: 'max-content', height: '20vh'}}/>
+      <img src={image} style={{width: '100%'}}/>
       {inProgress === 'true' && <Card.Text>Still a Work In Progress</Card.Text>}
       <Card.Text style={{fontSize: '1.25rem'}}>{name}</Card.Text>
       <Button variant="primary" onClick={handleShow}>See Project Details</Button>
     </Card>
 
 <Modal show={show} onHide={handleClose} >
-  <img src={image} height='300vh' width='max-content'/>
+  <img src={image} width='100%'/>
   <Modal.Header closeButton>
     <Modal.Title>{name}</Modal.Title>
   </Modal.Header>
