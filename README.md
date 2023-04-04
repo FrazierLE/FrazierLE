@@ -12,7 +12,7 @@
   </a>
   <h3>Skills</h3>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,apollo,atom,bootstrap,express,figma,github,graphql,materialui,postman,nodejs,react,redux,vercel,vscode" />
+    <img src="https://skillicons.dev/icons?i=js,html,css,apollo,bootstrap,express,figma,github,graphql,materialui,postman,react,redux,vercel,vscode" />
   </a>
 </div>
 
