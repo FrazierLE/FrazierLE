@@ -16,3 +16,12 @@
   </a>
 </div>
 
+
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" height="160em" src="https://github-readme-stats.vercel.app/api?username=frazierle&show_icons=true&theme=dark&hide_border=true"/>
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=frazierle&layout=compact&theme=dark&hide_border=true"/>
+  </a>
+</div>
