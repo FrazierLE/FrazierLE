@@ -4,6 +4,7 @@ import trivia from '../../assets/around-the-world.png'
 import bookworm from '../../assets/BookWorm.png'
 import dailyDose from '../../assets/daily-dose.png'
 import taskMaster from '../../assets/task-master.png'
+import chatchpt from '../../assets/ChatchPT.png'
 
 export const data = [
   {
@@ -25,7 +26,7 @@ export const data = [
     inProgress: 'false',
     deployed: 'https://around-the-world-trivia.netlify.app/',
     summary: 'Around the World is a world trivia game application testing the user\'s knowledge of capitals and flags.',
-    technologies: ['TypeScript, React, React-Router, GraphQL, Cypress'],
+    technologies: ['TypeScript, React, GraphQL, Cypress'],
     accomplishment: 'Self taught TypeScript and utilized GraphQL to build a trivia game.'
   },
   {
@@ -47,7 +48,7 @@ export const data = [
     inProgress: 'false',
     deployed: 'https://pomodori-three.vercel.app/',
     summary: 'Pomodori Putridi is a movie application that simulates to rotten tomatoes and imdb.',
-    technologies: ['React, React-Router, Cypress, RESTful API'],
+    technologies: ['React, Cypress, RESTful API'],
     accomplishment: 'Learned the fundamentals of React and Cypress through building this application.'
   },
   {
@@ -82,5 +83,16 @@ export const data = [
     summary: 'Task Master is a web application designed for recent software engineer bootcamp grads to stay on track for interview prep.',
     technologies: ['TypeScript, React, Material UI, GraphQL, GoogleOAuth, Jest'],
     accomplishment: 'Teahcing myself how to utilize google oauth for login purposes.'
+  },
+  {
+    id: 8,
+    name: 'Cami Hatch Physical Therapy',
+    image: chatchpt,
+    repo: 'https://github.com/bkuhn2/chatchpt',
+    inProgress: 'true',
+    deployed: '',
+    summary: 'Cami Hatch is a physical therapist in Denver who needed a website for her new practice.',
+    technologies: ['React, Tailwind CSS'],
+    accomplishment: 'Teaching myself Tailwind CSS for a freelance project.'
   }
 ]
