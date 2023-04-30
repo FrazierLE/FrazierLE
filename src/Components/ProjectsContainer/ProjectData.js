@@ -4,6 +4,7 @@ import trivia from '../../assets/around-the-world.png'
 import bookworm from '../../assets/BookWorm.png'
 import dailyDose from '../../assets/daily-dose.png'
 import taskMaster from '../../assets/task-master.png'
+import chatchpt from '../../assets/ChatchPT.png'
 
 export const data = [
   {
@@ -82,5 +83,16 @@ export const data = [
     summary: 'Task Master is a web application designed for recent software engineer bootcamp grads to stay on track for interview prep.',
     technologies: ['TypeScript, React, Material UI, GraphQL, GoogleOAuth, Jest'],
     accomplishment: 'Teahcing myself how to utilize google oauth for login purposes.'
+  },
+  {
+    id: 8,
+    name: 'Cami Hatch Physical Therapy',
+    image: chatchpt,
+    repo: 'https://github.com/bkuhn2/chatchpt',
+    inProgress: 'true',
+    deployed: '',
+    summary: 'Cami Hatch is a physical therapist in Denver who needed a website for her new practice.',
+    technologies: ['React, Tailwind CSS'],
+    accomplishment: 'Teaching myself Tailwind CSS for a freelance project.'
   }
 ]
