@@ -26,7 +26,7 @@ export const data = [
     inProgress: 'false',
     deployed: 'https://around-the-world-trivia.netlify.app/',
     summary: 'Around the World is a world trivia game application testing the user\'s knowledge of capitals and flags.',
-    technologies: ['TypeScript, React, React-Router, GraphQL, Cypress'],
+    technologies: ['TypeScript, React, GraphQL, Cypress'],
     accomplishment: 'Self taught TypeScript and utilized GraphQL to build a trivia game.'
   },
   {
@@ -48,7 +48,7 @@ export const data = [
     inProgress: 'false',
     deployed: 'https://pomodori-three.vercel.app/',
     summary: 'Pomodori Putridi is a movie application that simulates to rotten tomatoes and imdb.',
-    technologies: ['React, React-Router, Cypress, RESTful API'],
+    technologies: ['React, Cypress, RESTful API'],
     accomplishment: 'Learned the fundamentals of React and Cypress through building this application.'
   },
   {
