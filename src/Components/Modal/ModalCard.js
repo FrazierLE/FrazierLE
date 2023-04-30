@@ -17,7 +17,7 @@ const ModalCard = ({ id, name, image, repo, inProgress, deployed, summary, techn
       <Button variant="primary" onClick={handleShow}>See Project Details</Button>
     </Card>
 
-<Modal show={show} onHide={handleClose} >
+<Modal show={show} onHide={handleClose}>
   <img src={image} width='100%'/>
   <Modal.Header closeButton>
     <Modal.Title>{name}</Modal.Title>
@@ -37,7 +37,7 @@ const ModalCard = ({ id, name, image, repo, inProgress, deployed, summary, techn
       <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Repo</Button>
     </NavLink>
     <NavLink to={deployed} target='_blank'>
-      <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Deployed</Button>
+      {deployed && <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Deployed</Button>}
     </NavLink>
   </Modal.Footer>
 </Modal>
