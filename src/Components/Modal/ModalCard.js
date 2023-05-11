@@ -34,7 +34,7 @@ const ModalCard = ({ id, name, image, repo, inProgress, deployed, summary, techn
   </Modal.Body>
   <Modal.Footer>
     <NavLink to={repo} target='_blank'>
-      <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Repo</Button>
+      {repo && <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Repo</Button>}
     </NavLink>
     <NavLink to={deployed} target='_blank'>
       {deployed && <Button style={{height: '2rem', width: 'max-content'}} variant='success'>Deployed</Button>}

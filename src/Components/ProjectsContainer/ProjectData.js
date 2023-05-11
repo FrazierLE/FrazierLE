@@ -37,8 +37,8 @@ export const data = [
     inProgress: 'false',
     deployed: 'https://materials-hazel.vercel.app/',
     summary: 'Daily Dose is an application for users to get the New York Times\' top stories.',
-    technologies: ['MaterialsUI, React, RESTful API'],
-    accomplishment: 'Self-taught MaterialsUI to build a simple news application.'
+    technologies: ['Material UI, React, RESTful API'],
+    accomplishment: 'Self-taught Material UI to build a simple news application.'
   },
   {
     id: 4, 
@@ -82,17 +82,17 @@ export const data = [
     deployed: '',
     summary: 'Task Master is a web application designed for recent software engineer bootcamp grads to stay on track for interview prep.',
     technologies: ['TypeScript, React, Material UI, GraphQL, GoogleOAuth, Jest'],
-    accomplishment: 'Teahcing myself how to utilize google oauth for login purposes.'
+    accomplishment: 'Self taught how to utilize google oauth for login purposes.'
   },
   {
     id: 8,
     name: 'Cami Hatch Physical Therapy',
     image: chatchpt,
-    repo: 'https://github.com/bkuhn2/chatchpt',
+    repo: '',
     inProgress: 'true',
-    deployed: '',
+    deployed: 'https://chatchpt-eight.vercel.app/',
     summary: 'Cami Hatch is a physical therapist in Denver who needed a website for her new practice.',
     technologies: ['React, Tailwind CSS'],
-    accomplishment: 'Teaching myself Tailwind CSS for a freelance project.'
+    accomplishment: 'Self taught Tailwind CSS for a freelance project.'
   }
 ]
