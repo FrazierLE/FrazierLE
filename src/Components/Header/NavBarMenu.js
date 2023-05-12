@@ -8,8 +8,8 @@ import Resume from '../../assets/Resume.pdf'
 const NavBarMenu = () => {
   return (
     <Navbar collapseOnSelect expand={false} bg="light">
-      <Container fluid>
-        <Navbar.Brand href="#home" style={{color: 'rgb(119, 193, 182)', fontSize: '2rem'}}>Lauren's Portfolio</Navbar.Brand>
+      <Container fluid style={{display: 'flex', alignItems: 'flex-start'}}>
+        <Navbar.Brand href="#home" style={{color: 'rgb(119, 193, 182)', fontSize: '2rem', paddingLeft: '3rem'}}>Lauren's Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{fontSize: '1.5rem'}}>
