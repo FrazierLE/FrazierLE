@@ -10,7 +10,7 @@ const NavBarMenu = () => {
     <Navbar collapseOnSelect expand={false} bg="light">
       <Container fluid style={{display: 'flex', alignItems: 'flex-start'}}>
         <Navbar.Brand href="#home" style={{color: 'rgb(119, 193, 182)', fontSize: '2rem', paddingLeft: '3rem'}}>Lauren's Portfolio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{marginRight: '2rem'}}/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{fontSize: '1.5rem'}}>
             <Nav.Link href="/">🏠 Home</Nav.Link>
