@@ -89,10 +89,10 @@ export const data = [
     name: 'Cami Hatch Physical Therapy',
     image: chatchpt,
     repo: '',
-    inProgress: 'true',
-    deployed: 'https://chatchpt-eight.vercel.app/',
+    inProgress: 'false',
+    deployed: 'https://www.chatchpt.com/',
     summary: 'Cami Hatch is a physical therapist in Denver who needed a website for her new practice.',
     technologies: ['React, Tailwind CSS'],
-    accomplishment: 'Self taught Tailwind CSS for a freelance project.'
+    accomplishment: 'Self taught Tailwind CSS for a freelance project. The Website is live!'
   }
 ]
