@@ -8,7 +8,7 @@
 <div align="center">
   <h2>Currently Learning</h2>
    <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=angular,nextjs,jest" />
+    <img src="https://skillicons.dev/icons?i=nextjs,jest" />
   </a>
   <h3>Skills</h3>
   <a href="https://skillicons.dev">
