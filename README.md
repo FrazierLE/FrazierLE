@@ -1,18 +1,18 @@
 
 <div align="center">
-  <h1>Hello there, I'm Lauren!  Here's a link to my portfolio website.</h1>
-  <span>Check it out!</span>
-  <a href="https://portfolio-frazierle.vercel.app" target='_blank'>Portfolio</a>
-</div>
+<!--   <h1>Hello there, I'm Lauren!  Here's a link to my portfolio website.</h1> -->
+<!--   <span>Check it out!</span> -->
+<!--   <a href="https://portfolio-frazierle.vercel.app" target='_blank'>Portfolio</a> -->
+<!-- </div> -->
 
 <div align="center">
   <h2>Currently Learning</h2>
    <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,jest" />
+    <img src="https://skillicons.dev/icons?i=nextjs,tailwindcss" />
   </a>
   <h3>Skills</h3>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,apollo,bootstrap,express,figma,github,graphql,materialui,postman,react,redux,vercel,vscode,tailwindcss" />
+    <img src="https://skillicons.dev/icons?i=js,html,css,apollo,bootstrap,express,figma,github,graphql,materialui,postman,react,redux,vercel,vscode,playwright" />
   </a>
 </div>
 
